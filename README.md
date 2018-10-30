@@ -8,9 +8,12 @@ The results given in this project are expected to be important in the research o
 
 ## How to get started with this project?
 ```
-$ git clone https://github.com/sidd0529/COSMOS_Lens.git
-$ cd COSMOS_Lens
+$ https://github.com/sidd0529/VISA_Trends.git
+$ cd VISA_Trends
+$ ./run.sh
 ```
+
+The output files can be found in output folder
 
 ## Where can you get help with this project?
 I will be very happy to help in case you have any questions regarding this project. You can find me at siddharthsatpathy.ss@gmail.com .
