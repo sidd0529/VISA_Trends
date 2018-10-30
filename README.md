@@ -13,7 +13,7 @@ $ cd VISA_Trends
 $ ./run.sh
 ```
 
-The output files can be found in output folder
+The output files can be found in output folder.
 
 ## Where can you get help with this project?
 I will be very happy to help in case you have any questions regarding this project. You can find me at siddharthsatpathy.ss@gmail.com .
