@@ -1,0 +1,7 @@
+# Compiled files #
+##################
+results.txt
+
+# Ignored folders #
+###################
+temp/
