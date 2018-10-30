@@ -18,7 +18,7 @@ These results were obtained through the analysis of 2016 immigration data using 
 
 ## How to get started with this project?
 ```
-$ https://github.com/sidd0529/VISA_Trends.git
+$ git clone https://github.com/sidd0529/VISA_Trends.git
 $ cd VISA_Trends
 $ ./run.sh
 ```
