@@ -5,20 +5,20 @@ from copy import deepcopy
 #----------------------------- Sorting  --------------------------------------------------------------------
 def sort_group(indx, column1, column2):
 	"""
-    Parameters
-    ----------	
-    indx : integer
-    column1 : list data type (contains strings of SOC NAMES / WORK STATES which need to be ordered.)
-    column2 : list data type (contains integers which denote numbers of of certified applications.)    
+	Parameters
+	----------	
+	indx : integer
+	column1 : list data type (contains strings of SOC NAMES / WORK STATES which need to be ordered.)
+	column2 : list data type (contains integers which denote numbers of of certified applications.)    
 
-    Returns
-    ------- 
-    sort_group : list 
-    		Returns a list where the entry at index 'indx' of column1 has been put in its proper 
-    		place as per alphabetical ordering. 
+	Returns
+	------- 
+	sort_group : list 
+			Returns a list where the entry at index 'indx' of column1 has been put in its proper 
+			place as per alphabetical ordering. 
 
-    Examples
-    --------
+	Examples
+	--------
 	>>> t1 = ['aaa', 'a', 'az', 'ay', 'ab', 'aa', 'ac', 'd', 'b', 'c']
 	>>> t2 = [7,6,5,5,5,5,5,4,3,3] 
 
@@ -49,20 +49,20 @@ def sort_group(indx, column1, column2):
 #----------------------------- Alphabetical ordering of columns ----------------------------------------
 def ordering(col1, col2, num):
 	"""
-    Parameters
-    ----------	
-    col1 : list data type (contains strings of SOC NAMES / WORK STATES which need to be ordered.)
-    col2 : list data type (contains integers which denote numbers of of certified applications.) 
-    num : integer (number of rows that the output file will contain.)   
+	Parameters
+	----------	
+	col1 : list data type (contains strings of SOC NAMES / WORK STATES which need to be ordered.)
+	col2 : list data type (contains integers which denote numbers of of certified applications.) 
+	num : integer (number of rows that the output file will contain.)   
 
-    Returns
-    ------- 
-    ordering : list 
-    		Returns a list where all entries in col1 are alphabetically sorted (when their corresponding
-    		entries in col2 have same values.) 
+	Returns
+	------- 
+	ordering : list 
+			Returns a list where all entries in col1 are alphabetically sorted (when their corresponding
+			entries in col2 have same values.) 
 
-    Examples
-    --------
+	Examples
+	--------
 	>>> t1 = ['aaa', 'a', 'az', 'ay', 'ab', 'aa', 'ac', 'd', 'b', 'c']
 	>>> t2 = [7,6,5,5,5,5,5,4,3,3] 
 
@@ -71,7 +71,7 @@ def ordering(col1, col2, num):
 
 	['aaa', 'a', 'aa', 'ab', 'ac']
 
-    The returned result is always a list of length 'num'.		   
+	The returned result is always a list of length 'num'.		   
 	"""	
 	col1_cp = deepcopy(col1)
 

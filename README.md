@@ -6,11 +6,11 @@ The codes in this repository use Python to create a pipeline to analyze past yea
 ## Why is this project useful?
 The results given in this project are expected to be important in the research of immigration data trends. 
 
-Below is a bar graph of jobs which bagged the most visas in 2019. 
+Below is a bar graph of jobs which bagged the most visas in 2016. 
 
 <img src="https://user-images.githubusercontent.com/26308648/47716180-47661b80-dc18-11e8-9ff9-17ab44cd4c73.png" width="620">
 
-Another bar graph given below shows the states which bagged the highest proportion of visas in 2019.
+Another bar graph given below shows the states which bagged the highest proportion of visas in 2016.
 
 <img src="https://user-images.githubusercontent.com/26308648/47716380-e4c14f80-dc18-11e8-9c95-d00400a2171f.png" width="620">
 
